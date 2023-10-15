@@ -1,6 +1,9 @@
 # Initialize new players
 execute as @a[tag=!init] run function init-player
 
+# Run the Intro
+execute as @a[tag=intro] run function intro
+
 # Teleport chicken
 tp @e[type=minecraft:chicken] 7 3.1 47
 

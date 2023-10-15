@@ -9,6 +9,7 @@ kill @e[type=minecraft:chicken]
 summon minecraft:chicken 7 3 47
 
 # Timers
+scoreboard objectives add timer dummy
 scoreboard objectives add timer1 dummy
 scoreboard players add world timer1 0
 scoreboard objectives add timer2 dummy
