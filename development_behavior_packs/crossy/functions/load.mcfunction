@@ -5,7 +5,7 @@ scoreboard objectives add world dummy
 scoreboard players add initialized world 0
 
 # If "initialized" is 0, then run the world initialization script
-execute if score initialized world matches 0 run function init-world
+execute unless score initialized world matches 1 run function init-world
 
 # Set to initialized so this only runs once
 scoreboard players set initialized world 1
