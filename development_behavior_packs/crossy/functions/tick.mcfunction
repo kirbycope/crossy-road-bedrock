@@ -115,6 +115,8 @@ execute as @e[x=-33,y=1,z=134,dx=0,dy=0,dz=66] run kill @s
 # Kill out of range cars and logs, Left-side Full
 execute as @e[x=27,y=1,z=21,dx=0,dy=0,dz=189] run kill @s
 
+# Increment timer if running
+execute as @a[scores={timer=1..}] run scoreboard players add @s timer 1
 # Reset the 1-second timer if it reaches 20 ticks
 execute if score world timer1 matches 20 run scoreboard players set world timer1 0
 # Increment timer 1
