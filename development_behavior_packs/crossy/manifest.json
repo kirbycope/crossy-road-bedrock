@@ -1,0 +1,21 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Crossy Road",
+		"description": "Crossy Road Behavior Pack",
+		"uuid": "6bc44238-00e7-4415-b5cd-a3ebbfd37af6",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 20, 30]
+	},
+	"metadata": {
+		"authors": ["kirbycope"]
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "d765d9ba-4a24-48da-8d9b-727dc170634e",
+			"type": "data"
+		}
+	]
+}
